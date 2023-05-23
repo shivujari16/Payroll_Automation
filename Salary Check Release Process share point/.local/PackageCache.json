@@ -2,6 +2,21 @@
   "Packages": [
     {
       "Package": {
+        "Id": "BalaReva.EasyExcel.Activities",
+        "Version": "26.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities/26.0.0\\lib/BalaReva.EasyExcel.Design.dll",
+        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities/26.0.0\\lib/BalaReva.EasyExcel.Utilities.dll",
+        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities/26.0.0\\lib/BalaReva.EasyExcel.dll",
+        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\microsoft.office.interop.excel/15.0.4795.1000\\lib/net20/Microsoft.Office.Interop.Excel.dll",
+        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\microsoftofficecore/15.0.0\\lib/net35/Office.dll"
+      ],
+      "Path": "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities\\26.0.0"
+    },
+    {
+      "Package": {
         "Id": "BalaReva.Excel.Activities",
         "Version": "2021.0.0"
       },
@@ -217,21 +232,6 @@
         "C:\\Users\\shivam.jariwala\\.nuget\\packages\\windowsazure.storage/7.0.0\\lib/net40/Microsoft.WindowsAzure.Storage.dll"
       ],
       "Path": "C:\\Users\\shivam.jariwala\\.nuget\\packages\\uipathteam.sharepoint.activities\\1.7.0"
-    },
-    {
-      "Package": {
-        "Id": "BalaReva.EasyExcel.Activities",
-        "Version": "26.0.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities/26.0.0\\lib/BalaReva.EasyExcel.Design.dll",
-        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities/26.0.0\\lib/BalaReva.EasyExcel.dll",
-        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities/26.0.0\\lib/BalaReva.EasyExcel.Utilities.dll",
-        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\microsoft.office.interop.excel/15.0.4795.1000\\lib/net20/Microsoft.Office.Interop.Excel.dll",
-        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\microsoftofficecore/15.0.0\\lib/net35/Office.dll"
-      ],
-      "Path": "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities\\26.0.0"
     }
   ],
   "Conflicts": [],
@@ -1747,8 +1747,8 @@
       },
       "Assemblies": [
         "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities\\26.0.0\\lib\\BalaReva.EasyExcel.Design.dll",
-        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities\\26.0.0\\lib\\BalaReva.EasyExcel.dll",
-        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities\\26.0.0\\lib\\BalaReva.EasyExcel.Utilities.dll"
+        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities\\26.0.0\\lib\\BalaReva.EasyExcel.Utilities.dll",
+        "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities\\26.0.0\\lib\\BalaReva.EasyExcel.dll"
       ],
       "Path": "C:\\Users\\shivam.jariwala\\.nuget\\packages\\balareva.easyexcel.activities\\26.0.0"
     },

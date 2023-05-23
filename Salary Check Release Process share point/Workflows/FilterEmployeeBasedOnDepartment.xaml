@@ -118,7 +118,7 @@
         <InArgument x:TypeArguments="x:String">[Split(in_workfolderUrl,"/",2)(1)]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each - Iterating list of department" sap:VirtualizedContainerService.HintSize="512,1253" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[in_listOfDepartment]">
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each - Iterating list of departments" sap:VirtualizedContainerService.HintSize="512,1253" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[in_listOfDepartment]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="x:String">
           <ActivityAction.Argument>

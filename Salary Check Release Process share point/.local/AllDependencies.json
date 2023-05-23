@@ -8057,9 +8057,9 @@
     "restore": {
       "projectUniqueName": "Salary Check Release Process share point",
       "projectName": "Salary Check Release Process share point",
-      "projectPath": "C:\\Users\\shivam.jariwala\\Documents\\UiPath\\Salary Check Release Process share point\\.local",
+      "projectPath": "C:\\Users\\shivam.jariwala\\Documents\\UiPath\\Payroll_Automation\\Salary Check Release Process share point\\.local",
       "packagesPath": "C:\\Users\\shivam.jariwala\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shivam.jariwala\\Documents\\UiPath\\Salary Check Release Process share point\\.local"
+      "outputPath": "C:\\Users\\shivam.jariwala\\Documents\\UiPath\\Payroll_Automation\\Salary Check Release Process share point\\.local"
     },
     "frameworks": {
       "net461": {
