@@ -1,0 +1,7 @@
+1. dt_expenseTotal -> Should dynamically create at first time ••••
+2. Departent wise excel should have name of department as a sheet name ••••
+3. Every workflow shoud have annotation ••••
+4. Change variable name(row,currentRow)in for each activity. ••••
+5. sendMail -> username and passwords should store in assets. ••••
+6. Department wise excel should have file name as departmentName_SalaryDetail_date ••••
+7. cheque name should be in mm/dd/yyyy format ••••

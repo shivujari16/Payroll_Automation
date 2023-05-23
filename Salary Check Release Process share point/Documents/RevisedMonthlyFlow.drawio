@@ -1,0 +1,267 @@
+<mxfile host="app.diagrams.net" modified="2023-04-07T05:54:58.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Il4ifuzQBkAG_YdfAp-4" version="21.1.4" type="device">
+  <diagram name="Page-1" id="PilkUqu7PoXiaFArsD04">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4whBrVCjAMSF89yT8K_F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4whBrVCjAMSF89yT8K_F-2" target="4whBrVCjAMSF89yT8K_F-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Start&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="480" y="241" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4whBrVCjAMSF89yT8K_F-4" target="4whBrVCjAMSF89yT8K_F-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Download Data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="341" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4whBrVCjAMSF89yT8K_F-5" target="4whBrVCjAMSF89yT8K_F-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Read Data&lt;br&gt;(Store To Data Tables)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Create List Containing Department Code&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="541" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="4whBrVCjAMSF89yT8K_F-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="601" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4whBrVCjAMSF89yT8K_F-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="741" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;For Each Item in List&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="641" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9AzUT6-FG65nfizJe7Vk-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4whBrVCjAMSF89yT8K_F-11" target="9AzUT6-FG65nfizJe7Vk-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Create a Folder&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="741" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="4whBrVCjAMSF89yT8K_F-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Filter Employee Data Table Based On Department&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="4whBrVCjAMSF89yT8K_F-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Save To Excel in Respective Department Folder&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="4whBrVCjAMSF89yT8K_F-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;For Each Folder in Directory&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4whBrVCjAMSF89yT8K_F-15" target="4whBrVCjAMSF89yT8K_F-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="710" as="sourcePoint" />
+            <mxPoint x="610" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="1090" />
+              <mxPoint x="680" y="671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="4whBrVCjAMSF89yT8K_F-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Read Excel (Store to Data Table)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="4whBrVCjAMSF89yT8K_F-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Get Ascii Value For Adding Final Amount Cell&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="4whBrVCjAMSF89yT8K_F-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Write Final Amount in Cell&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="4whBrVCjAMSF89yT8K_F-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;For Each Row in Data Table&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4whBrVCjAMSF89yT8K_F-30" target="4whBrVCjAMSF89yT8K_F-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="1650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4whBrVCjAMSF89yT8K_F-36" target="4whBrVCjAMSF89yT8K_F-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4whBrVCjAMSF89yT8K_F-36" target="4whBrVCjAMSF89yT8K_F-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-36" value="IF Casual leave &amp;gt; 1" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_qGmOZDSWI8cXpfQPq8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4whBrVCjAMSF89yT8K_F-37" target="7_qGmOZDSWI8cXpfQPq8-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-37" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Final Amount =&amp;nbsp; Deducted Amount&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1761" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-38" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-40" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Final Amount =&amp;nbsp; &amp;nbsp;Gross Salary&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="1761" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-43" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;No&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="1670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Write Final Amount in Cell&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1997" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="2057" as="sourcePoint" />
+            <mxPoint x="530" y="2097" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4whBrVCjAMSF89yT8K_F-47" target="4whBrVCjAMSF89yT8K_F-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="2020" as="sourcePoint" />
+            <mxPoint x="690" y="1690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="2027" />
+              <mxPoint x="760" y="1590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4whBrVCjAMSF89yT8K_F-56" target="AVZP85bARWxFr5hi4TH0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-56" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Add Final Amount&amp;nbsp; in Department wise expense dictionary&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="2097" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="4whBrVCjAMSF89yT8K_F-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="2140" as="sourcePoint" />
+            <mxPoint x="590" y="1460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="2140" />
+              <mxPoint x="820" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4whBrVCjAMSF89yT8K_F-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-60" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Generate Analytical Report&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="2510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-62" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Send Mail To respective team manager&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="2708" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-63" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;End&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="480" y="2927" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4whBrVCjAMSF89yT8K_F-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="2768" as="sourcePoint" />
+            <mxPoint x="530" y="2808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_qGmOZDSWI8cXpfQPq8-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Highlight Row&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1859" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_qGmOZDSWI8cXpfQPq8-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7_qGmOZDSWI8cXpfQPq8-1" target="4whBrVCjAMSF89yT8K_F-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="2029" as="sourcePoint" />
+            <mxPoint x="750" y="1979" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="1949" />
+              <mxPoint x="640" y="1949" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_qGmOZDSWI8cXpfQPq8-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="4whBrVCjAMSF89yT8K_F-47" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1949" as="sourcePoint" />
+            <mxPoint x="750" y="1979" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CZse7GlVEbX77wuF0b9W-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Update Department wise expense excel from dictionary&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="2807" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CZse7GlVEbX77wuF0b9W-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="2887" as="sourcePoint" />
+            <mxPoint x="530" y="2927" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9AzUT6-FG65nfizJe7Vk-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Add Item to department dictionary that will contain total expense&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="830" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;For Each Folder in Directory&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" target="AVZP85bARWxFr5hi4TH0-4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="2280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AVZP85bARWxFr5hi4TH0-4" target="AVZP85bARWxFr5hi4TH0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Read Excel (Store to Data Table)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AVZP85bARWxFr5hi4TH0-5" target="4whBrVCjAMSF89yT8K_F-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-5" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Generate Cheque &amp;amp; Save in Folder&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AVZP85bARWxFr5hi4TH0-5" target="AVZP85bARWxFr5hi4TH0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="2480" as="sourcePoint" />
+            <mxPoint x="690" y="2430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="2440" />
+              <mxPoint x="720" y="2250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AVZP85bARWxFr5hi4TH0-9" target="4whBrVCjAMSF89yT8K_F-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AVZP85bARWxFr5hi4TH0-9" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Upload Report to the folder&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2610" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

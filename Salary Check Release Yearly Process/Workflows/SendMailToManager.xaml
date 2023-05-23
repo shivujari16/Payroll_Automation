@@ -1,0 +1,229 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SendMailToTeamManager" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_username" Type="InArgument(x:String)" />
+    <x:Property Name="in_password" Type="InArgument(ss:SecureString)" />
+    <x:Property Name="in_managerMailId" Type="InArgument(x:String)" />
+    <x:Property Name="in_yearlyLeaveLocalPath" Type="InArgument(x:String)" />
+    <x:Property Name="in_downloadDataPath" Type="InArgument(x:String)" />
+    <x:Property Name="in_sharepointUrl" Type="InArgument(x:String)" />
+    <x:Property Name="in_workFolderPath" Type="InArgument(x:String)" />
+    <x:Property Name="in_port" Type="InArgument(x:Int32)" />
+    <x:Property Name="in_yearlySalaryLocalPath" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:SendMailToTeamManager.in_managerMailId>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SendMailToTeamManager.in_managerMailId>
+  <this:SendMailToTeamManager.in_downloadDataPath>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SendMailToTeamManager.in_downloadDataPath>
+  <this:SendMailToTeamManager.in_sharepointUrl>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SendMailToTeamManager.in_sharepointUrl>
+  <this:SendMailToTeamManager.in_workFolderPath>
+    <InArgument x:TypeArguments="x:String" />
+  </this:SendMailToTeamManager.in_workFolderPath>
+  <this:SendMailToTeamManager.in_port>
+    <InArgument x:TypeArguments="x:Int32" />
+  </this:SendMailToTeamManager.in_port>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1431,1972</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>SendMailToTeamManager_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="44">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Mail.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.Activities.Business.HtmlEditor</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>UiPathTeam.SharePoint.Activities.Libraries</x:String>
+      <x:String>UiPathTeam.SharePoint.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="33">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPathTeam.SharePoint.Activities</AssemblyReference>
+      <AssemblyReference>OfficeDevPnP.Core</AssemblyReference>
+      <AssemblyReference>UiPathTeam.SharePoint</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="SendMailToTeamManager" sap:VirtualizedContainerService.HintSize="695,1907" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="salarySubject" />
+      <Variable x:TypeArguments="x:String" Name="leaveSubject" />
+      <Variable x:TypeArguments="x:String" Name="year" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message - Sending mail to manager started" sap:VirtualizedContainerService.HintSize="653,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Sending mail to manager started&quot;]" />
+    <If Condition="[now.ToString(&quot;MM&quot;).Equals(&quot;01&quot;)]" DisplayName="If - it is january" sap:VirtualizedContainerService.HintSize="653,310" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence DisplayName="Sequence - previous year" sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign DisplayName="Assign - previous year" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[year]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[now.AddYears(-1).ToString("yyyy")]</InArgument>
+            </Assign.Value>
+          </Assign>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Sequence - current year" sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign DisplayName="Assign - current year" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[year]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[now.ToString("yyyy")]</InArgument>
+            </Assign.Value>
+          </Assign>
+        </Sequence>
+      </If.Else>
+    </If>
+    <Assign DisplayName="Assign - subject string" sap:VirtualizedContainerService.HintSize="653,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[salarySubject]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[String.Format("Payroll Automation | Salary Report {0} | {1}",year,now.ToString("MM/dd/yyyy"))]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign DisplayName="Assign - leave subject string" sap:VirtualizedContainerService.HintSize="653,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[leaveSubject]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[String.Format("Payroll Automation | Leave Report {0} | {1}",year,now.ToString("MM/dd/yyyy"))]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Sends yearly salary report to the manager&#xA;1. in_sharepointUrl : take sharepoint url for generating sharepoint link&#xA;2. in_workfolderPath: Takes workfolder path for genrating sharepoint link&#xA;3. in_managerMailId : takes manager mail id for sending mail&#xA;4. in_salarySubject : takes subject text&#xA;5. in_username &amp; in_password : Takes username and password for mailing&#xA;6. in_port : Takes port number of smtp mail&#xA;7. in_yearlySalaryReport : Takes path of salary report&#xA;" DisplayName="Invoke SendSalaryReport workflow" sap:VirtualizedContainerService.HintSize="653,319" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Workflows\SendSalaryReport.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="in_sharepointUrl">[in_sharepointUrl]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_workFolderPath">[in_workFolderPath]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_managerMailId">[in_managerMailId]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_salarySubject">[salarySubject]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_username">[in_username]</InArgument>
+        <InArgument x:TypeArguments="ss:SecureString" x:Key="in_password">[in_password]</InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="in_port">[in_port]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_yearlySalaryReport">[in_YearlySalaryLocalPath]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Sends yearly leave report to the manager&#xA;1. in_sharepointUrl : take sharepoint url for generating sharepoint link&#xA;2. in_workfolderPath: Takes workfolder path for genrating sharepoint link&#xA;3. in_managerMailId : takes manager mail id for sending mail&#xA;4. in_leaveSubject : takes subject text&#xA;5. in_username &amp; in_password : Takes username and password for mailing&#xA;6. in_port : Takes port number of smtp mail&#xA;7. in_yearlyLeaveReport : Takes path of salary report&#xA;" DisplayName="Invoke SendLeaveReport workflow" sap:VirtualizedContainerService.HintSize="653,319" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Workflows\SendLeaveReport.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="in_sharepointUrl">[in_sharepointUrl]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_workFolderPath">[in_workFolderPath]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_managerMailId">[in_managerMailId]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_leaveSubject">[leaveSubject]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_yearlyLeaveReport">[in_yearlyLeaveLocalPath]</InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="in_port">[in_port]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_username">[in_username]</InArgument>
+        <InArgument x:TypeArguments="ss:SecureString" x:Key="in_password">[in_password]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InvokeWorkflowFile>
+    <ui:LogMessage DisplayName="Log Message - mail sent successfully" sap:VirtualizedContainerService.HintSize="653,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Mail is sent successfully to the manager&quot;]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Deletes folder from local system&#xA;1. in_downloadDataPath : Takes local path for deleting" DisplayName="Invoke DeleteFoldersFromLocalSystem workflow" sap:VirtualizedContainerService.HintSize="653,154" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Workflows\DeleteFoldersFromLocalSystem.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="in_downloadDataPath">[in_downloadDataPath]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InvokeWorkflowFile>
+    <ui:LogMessage DisplayName="Log Message - Sending mail to manager completed" sap:VirtualizedContainerService.HintSize="653,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Sending mail to manager completed&quot;]" />
+  </Sequence>
+</Activity>
